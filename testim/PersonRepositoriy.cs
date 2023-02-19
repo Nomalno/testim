@@ -77,7 +77,7 @@ namespace testim
         }
         internal void Find(int count)
         {
-            Console.WriteLine($"Количество символов в названии, которое больше, либо равно{count}");
+            Console.WriteLine($"Количество символов в названии, которое больше, либо равно {count}");
             for (int i = 1; i <= fakedb.Count; i++)
             {
                 if (fakedb[i].Length>=count)
